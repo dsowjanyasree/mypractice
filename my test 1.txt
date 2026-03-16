@@ -1,1 +1,12 @@
 hello welcome to java
+ git config --global user.email "dsowjanyasree@gmail.com"
+  git config --global user.name "dsowjanyasree"
+https://github.com/dsowjanyasree/mypractice
+
+dsowjanyasree-usename
+
+C:\Program Files\Java\jdk-21.0.10
+C:\Program Files\Java\jdk-21.0.10\bin
+C:\Program Files\Java\jdk-21.0.10\bin
+C:\Program Files\Common Files\Oracle\Java\javapath
+"C:\Program Files\Java\jdk-21.0.10"

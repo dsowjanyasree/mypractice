@@ -1,0 +1,23 @@
+@sanity
+
+Feature: validation of Fund Transfer feature
+
+  Background: 
+    Given user opens the  Loginpage of the application
+    And user enters the username as "mngr655507"
+    And user enters the password as "AhEjyjy"
+    When user clicks on login button
+    Then validate user will be navigated to homepage
+
+  Scenario Outline: Validating the Fund Transfer with the credentials
+    And user clicks on Fund Transfer link
+    And user enters the Payers account no as "<Payersaccountno>"
+    And user enters the Payees account no as "<Payeesaccountno>"
+    And user enters the Amount as "<Amount>"
+    And user enters the Description as "<Description>"
+    When user clicks on submit button1
+    Then validate user will be navigated to Fund Transfer Details page
+
+    Examples: 
+      | Payersaccountno | Payeesaccountno | Amount | Description |
+      |          180602 |          180603 |   100 | family      |
