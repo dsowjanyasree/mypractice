@@ -154,6 +154,9 @@ public class CustomerPage {
  
  public void validateCustIDGeneration()
  {
+WebDriverWait mywait=new WebDriverWait(driver,Duration.ofSeconds(10));
+	 
+	 mywait.until(ExpectedConditions.elementToBeClickable(CustID));
 	boolean flag= CustID.isDisplayed();
 	
 	if(flag==true)
